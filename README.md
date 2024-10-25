@@ -1,4 +1,4 @@
-online-clock
+clockify
 ---
 
 A simple online clock with countdown and timer based on Nuxt.js and Tailwind.css.

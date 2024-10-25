@@ -1,24 +1,33 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+# prod
+dist/
 
-# Node dependencies
-node_modules
+# dev
+.yarn/
+!.yarn/releases
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
 
-# Logs
-logs
-*.log
+# deps
+node_modules/
+.wrangler
 
-# Misc
-.DS_Store
-.fleet
-.idea
-
-# Local env files
+# env
 .env
-.env.*
-!.env.example
+.env.production
+.dev.vars
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# misc
+.DS_Store
