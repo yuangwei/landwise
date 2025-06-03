@@ -184,6 +184,5 @@ If you encounter any issues, please file them in the GitHub Issues section with:
 
 - Built with [T3 Stack](https://create.t3.gg/)
 - AI models powered by [OpenRouter](https://openrouter.ai/)
-- UI components inspired by [v0.dev](https://v0.dev/)
 - Chat interface using [llm-ui](https://llm-ui.com/)
 
