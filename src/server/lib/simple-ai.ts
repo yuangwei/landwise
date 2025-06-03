@@ -23,7 +23,7 @@ export class SimpleLandingPageGenerator {
         headers: {
           "Authorization": `Bearer ${env.OPENROUTER_API_KEY}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": env.BETTER_AUTH_URL,
+          "HTTP-Referer": env.BETTER_AUTH_URL as string,
           "X-Title": "LandingWise",
         },
         body: JSON.stringify({
